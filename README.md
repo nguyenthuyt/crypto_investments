@@ -93,7 +93,7 @@ df.describe()
 
 ![JupyterLab notebook market data line plot](Images/market_data_line_plot.PNG)
 
-(3) Using StandardScaler along with 'fit_transform' to normalize the CSV data. Then, create a DataFrame containing the scaled data.
+(3) Use StandardScaler along with 'fit_transform' to normalize the CSV data. Then, create a DataFrame containing the scaled data.
 
 
 ![JupyterLab notebook scaled DF](Images/scaled_df.PNG)
@@ -138,7 +138,7 @@ In this section, you will perform a principal component analysis (PCA) and reduc
 
 ![JupyterLab browser PCA explained variance](Images/explained_variance.PNG)
 
-(2) Again the elbow method is applied to PCA DataFrame and results in an optimal k value of 4.
+(2) Again the elbow method is applied to PCA DataFrame and resulted in an optimal k value of 4.
 
 ![JupyterLab browser PCA elbow curve](Images/pca_elbow_curve.PNG)
 
@@ -147,7 +147,7 @@ In this section, you will perform a principal component analysis (PCA) and reduc
 ![JupyterLab browser PCA scatter plot](Images/pca_scatter_plot.PNG)
 
 
-### **Step 6: Graph and interpret the results**.**
+### **Step 6: Graph and interpret the results**
 
 After analyzing the elbow curve and cluster plots from the original DataFrame and the PCA DataFrame with fewer features, the value of k remained the same but the resulting PCA scatterplot had tighter segmented clusters with smaller variances between the centroid and the data points.
 
